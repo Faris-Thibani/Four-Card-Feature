@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/Faris-Thibani/Four-Card-Feature
-- Live Site URL: 
+- Live Site URL: https://faris-thibani.github.io/Four-Card-Feature/
 
 ## My process
 
