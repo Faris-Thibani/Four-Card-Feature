@@ -15,7 +15,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -48,7 +47,6 @@ Users should be able to:
 
 I got to practice the css Grid Feature. Enjoyed it and the project was much fun and interesting to implement. 
 
-To see how you can add code snippets, see below:
 
 ```css
 @media (min-width: 700px){
@@ -63,8 +61,6 @@ To see how you can add code snippets, see below:
 ### Continued development
 
 I want to build a bigger portoflio using css grid and improve my ability to use it exceptionally. 
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
