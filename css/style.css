@@ -1,0 +1,144 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+:root{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+/* Custom Properties */
+
+   /* Colors */
+:root{
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --veryDarkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+    --veryLightGray: hsl(0, 0%, 98%);
+}
+
+/* Frontend Attributes */
+.attribution { font-size: 11px; text-align: center;
+margin-top: 4em; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+/* Utiltities */
+.grid{
+    display: grid;
+}
+.box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.whiteBG{
+    background-color: white;
+}
+.border-radius{
+border-radius: .3em;
+}
+.padding{
+    padding: 1em;
+}
+.colorVeryDarkBlue{
+    color: var(--veryDarkBlue)
+}
+.fsheading{
+    font-size: 1.3rem;
+}
+/* Styles  */
+
+.wrapper{
+    min-height: 100vh;
+    background-color: var(--veryLightGray);
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heading{
+    text-align: center;
+    font-size: 1rem;
+    color: var(--grayishBlue);
+}
+.headline{
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+.headline-accent{
+    font-weight: 600;
+}
+.sub-headline{
+    margin: 1em 0 4em 0;
+}
+.container{
+    gap: 2em;
+    max-width: 1200px;
+}
+
+/* Box Styling */
+
+.supervisor{
+    border-top: 5px solid var(--cyan);
+}
+.team-builder{
+    border-top: 5px solid var(--red);
+}
+.karma{
+    border-top: 5px solid var(--orange);
+}
+.calculator{
+    border-top: 5px solid var(--blue)
+}
+/* Box Items  */
+.title{
+    margin-bottom: .5em;
+}
+.description{
+    color: var(--grayishBlue); 
+    font-weight: 200;  
+}
+.icon{
+    margin-top: 2.5em;
+    justify-self: end;
+}
+.mediapadding{
+    padding: 1em
+}
+@media (min-width: 700px){
+    .container{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        place-items: center;
+    }
+    .mediapadding{
+        padding: 2em;
+    }
+    .supervisor{
+        grid-row: 1/ 3;
+        grid-column: 1/2;
+    }
+    .team-builder{
+        grid-row:1/2;
+        grid-column: 2/3 ;
+    }
+    .karma{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .calculator{
+        grid-row: 1/3;
+        grid-column: 3/4;
+    }
+    .heading{
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 2em;
+    }
+    .headline{
+        font-size: 2rem;
+    }
+    .headline-accent{
+        display:block;
+    }
+    .sub-headline{font-size:1.1rem;}
+}
